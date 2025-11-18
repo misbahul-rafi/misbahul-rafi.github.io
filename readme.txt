@@ -1,30 +1,37 @@
-Note
-====
-ME – Resume and Personal Portfolio Responsive Template
+# Misbahul Rafi - Personal Portfolio
 
-Me is a clean, modern and responsive professional looking resume / personal portfolio template. well crafted Designed for user experience on mulit devices like desktop, laptop, smartphones. This template is built on Bootstrap framework which give flexibilty to customeise the theme easly as per the your requirements. Included with all latest technology HTML5 CSS3, jQuery and bootstrap.
+This repository contains the source code for my personal portfolio website. It showcases my skills, experience, and projects as a Fullstack Web Developer and DevOps & Cloud Engineer.
 
+## Live Demo
+You can view the live website here: [https://misbahul-rafi.github.io](https://misbahul-rafi.github.io)
 
-Key features
-Twitter Bootstrap 3.2.0
-Valid HTML5 & CSS3
-FontAwesome Icons
-Gallery
-Fully Responsive
-Browser Compatability
-Contact Form
+## About Me
+I am Misbahul Rafi, a graduate in Digital Telecommunications Network from State Polytechnic of Malang. I have experience in server management, networking, cloud infrastructure (AWS & Oracle Cloud), and system administration. I am familiar with web development frameworks such as Laravel, React, and Next.js, as well as DevOps concepts like Docker and CI/CD. My goal is to build efficient, scalable, and secure digital solutions.
 
-Responsive, Bootstrap Mobile First Web Template
- 
-Author URI: http://webthemez.com/
+## Features
+- Responsive design with a fixed navigation menu
+- Hero section with banner and introduction
+- Biography section with personal profile and quote
+- Skills section showcasing:
+  - Web Development (NextJS, Laravel, React)
+  - Cloud Infrastructure (AWS, Oracle Cloud, Linux Server)
+  - DevOps (Docker, CI/CD, Git)
+  - Network & System Administration
+  - Soft skills (Communication, Problem Solving, Teamwork)
+- Experience section highlighting internship at Telkomsat in IT Operation & Cyber Security
+- Portfolio section with description of projects and technical expertise
+- FAQ section with common interview questions and answers
+- Contact section with LinkedIn, WhatsApp, GitHub links, and contact form
+- Footer with personal tagline
 
-License: Free to use for personal and commercial, but you need to place back link in the bottom of the template(Template by: webthemez.com).
+## Technologies Used
+- HTML5, CSS3
+- Google Fonts: Liter and Inter
+- JavaScript (for interactive FAQ and navigation)
+- Responsive design for mobile and desktop
+- Hosted on GitHub Pages
 
-
-Credits
-=======
-Framework  http://getbootstrap.com
-Images	Unsplash (http://unsplash.com - CC0 licensed) 
-Icons	Font Awesome (http://fortawesome.github.com/Font-Awesome/)
-Other	html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-
+## Usage
+1. Clone this repository:
+```bash
+git clone https://github.com/misbahul-rafi/portfolio.git

@@ -1,0 +1,120 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 3em;
+    position: fixed;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 100;
+}
+
+nav.scrolled {
+    background-color: #ff4906;
+}
+
+nav h1 a {
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration: none;
+    opacity: 0;
+    transition: background-color 0.3s ease;
+    color: #F2F2F2;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 18px;
+    transition: right 0.35s ease;
+    z-index: 101;
+}
+
+.nav-menu.active {
+    right: 0;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-menu li a {
+    color: #F2F2F2;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.nav-menu li a:hover {
+    color: #FF6A3C;
+}
+
+.nav-icon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 102;
+    display: none;
+}
+
+.nav-icon img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    filter: brightness(0) invert(1);
+}
+
+.nav-icon img.show-icon {
+    opacity: 1;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: -1;
+}
+
+.overlay.show {
+    
+    background-color: #4f160187;
+    z-index: 50;
+}
+
+@media (max-width: 768px) {
+    .nav-icon{
+        display: block;
+    }
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -1000px;
+        width: 60vw;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #ff4906;
+        padding: 160px 0;
+    }
+
+    .nav-menu li {
+        width: 100%;
+    }
+
+    .nav-menu li a {
+        font-size: 1.2em;
+        align-items: center;
+        padding: 0 16px;
+    }
+    .nav-menu li a:hover {
+        color: #ffd500;
+    }
+}

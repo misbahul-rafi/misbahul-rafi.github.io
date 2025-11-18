@@ -1,0 +1,47 @@
+
+.hero img {
+  width: 100%;
+  position: absolute;
+  min-height: 420px;
+  top: 0;
+  background-color: #00C8FF;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  margin: 28vh auto 0;
+  width: 80vw;
+}
+
+.heroText span {
+  color: #F2F2F2;
+  font-family: 'Ubuntu', 'sans-serif';
+  font-weight: 700;
+  font-style: normal;
+}
+
+.heroText span:first-child {
+  font-size: 2em;
+
+}
+
+.heroText span:nth-child(2) {
+  font-size: 3em;
+}
+.heroText span:nth-child(3) {
+  width: max-content;
+  font-size: 1.65em;
+  color: rgb(167, 167, 167);
+  border-top: 1px solid rgb(167, 167, 167);
+  border-bottom: 1px solid rgb(167, 167, 167);
+  margin-top: 15px;
+}
